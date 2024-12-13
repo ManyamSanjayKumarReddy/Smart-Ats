@@ -8,7 +8,7 @@ The chatbot offers an interactive experience where users can ask questions about
 The system evaluates the resume based on predefined criteria and generates a Resume Preparation Score along with impressions on how to improve it. 
 Based on the content of the resume, it also suggests internships and job roles tailored to the user's skills and experiences.
 
-Features
+Features:
 Resume Upload: Users can upload a PDF version of their resume for analysis.
 Resume Preparation Score: The system evaluates the resume and provides a score based on key elements such as experience, education, skills, and formatting.
 Personalized Feedback: Based on the score, the system provides personalized feedback on how to improve the resume.
@@ -22,6 +22,25 @@ Google Gemini API: For generating AI-based responses and analyzing user queries.
 PyPDF2: For reading and extracting text from uploaded PDF resumes.
 dotenv: To manage sensitive environment variables like API keys securely.
 Regex: For analyzing resume content and extracting relevant skills, experience, and dates.
+
+Requirements:
+1.To run this project locally, you will need to install the following Python libraries:
+pip install streamlit google-generativeai PyPDF2 python-dotenv
+2.You'll also need an API key for the Google Gemini service. Once you have it, store it in a .env file with the following content:
+GOOGLE_API_KEY=your_api_key_here
+
+How to Run the Application:
+1.Clone this repository:
+git clone https://github.com/your-username/smart-ats-chatbot.git
+cd smart-ats-chatbot
+2.Set up environment variables:
+Create a .env file and insert your GOOGLE_API_KEY.
+3.Run the application:
+Start the Streamlit app by running:
+streamlit run app.py
+4.Interact with the Chatbot:
+Upload your resume (in PDF format) and ask questions about it in the chat interface.
+The app will provide a Resume Preparation Score, personalized impressions, internship suggestions, and job role recommendations.
 
 Example Interaction:
 User: "What can I improve in my resume?"
