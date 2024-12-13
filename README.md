@@ -9,7 +9,6 @@ The system evaluates the resume based on predefined criteria and generates a Res
 Based on the content of the resume, it also suggests internships and job roles tailored to the user's skills and experiences.
 
 Features
-
 Resume Upload: Users can upload a PDF version of their resume for analysis.
 Resume Preparation Score: The system evaluates the resume and provides a score based on key elements such as experience, education, skills, and formatting.
 Personalized Feedback: Based on the score, the system provides personalized feedback on how to improve the resume.
@@ -18,7 +17,6 @@ Job Role Suggestions: Job roles based on the resume content are suggested to hel
 Chat with ATS: Users can interact with an AI-powered chatbot that answers questions related to the resume.
 
 Technologies Used:
-
 Streamlit: For creating the interactive web application.
 Google Gemini API: For generating AI-based responses and analyzing user queries.
 PyPDF2: For reading and extracting text from uploaded PDF resumes.
@@ -26,7 +24,6 @@ dotenv: To manage sensitive environment variables like API keys securely.
 Regex: For analyzing resume content and extracting relevant skills, experience, and dates.
 
 Example Interaction:
-
 User: "What can I improve in my resume?"
 ATS: "Your resume is strong, but there is room for improvement. Consider enhancing the clarity or adding more details about your accomplishments."
 User: "Can you suggest some internships?"
@@ -37,7 +34,7 @@ ATS: "Based on your resume, you could target job roles such as Python Developer,
 Contribution:
 If you'd like to contribute to this project, feel free to fork the repository, create a branch, and submit a pull request. Your improvements and suggestions are welcome!
 
-Acknowledgements
+Acknowledgements:
 Google Gemini API for AI-powered responses
 PyPDF2 for extracting text from PDFs
 Streamlit for building the web interface
