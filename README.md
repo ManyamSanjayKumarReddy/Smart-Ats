@@ -1,6 +1,6 @@
 **SMART ATS CHATBOT**
 
-Overview:
+####Overview:
 
 The Smart ATS Chatbot is an intelligent application designed to analyze resumes, provide valuable insights, and suggest relevant job opportunities or internships. 
 It uses advanced AI technologies, such as Google Gemini for natural language processing and PyPDF2 for extracting text from uploaded resume PDFs. 
