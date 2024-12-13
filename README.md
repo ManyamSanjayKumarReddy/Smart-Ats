@@ -1,4 +1,3 @@
-Absolutely, here's the content formatted as an `readme.md` file:
 
 ## Smart ATS Chatbot
 
